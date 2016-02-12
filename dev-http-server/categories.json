@@ -1,0 +1,10 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "My cat name",
+            "created_at": "2010-10-25T23:48:46Z",
+            "updated_at": "2010-10-25T23:48:46Z"
+        }
+    ]
+}

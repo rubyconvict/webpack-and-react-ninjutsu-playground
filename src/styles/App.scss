@@ -1,0 +1,39 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+$font-size-base: 10px;
+@import "variables";
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import '~font-awesome/css/font-awesome.css';
+
+/* Base Application Styles */
+html {
+    body {
+        /*font-size: 120%;
+        background: url(../images/repeater.jpg);
+        display: flex;*/
+    }
+}
+
+body {
+  color: #fff;
+  background: #222;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+
+@import '_basics.scss';
+@import 'Admin.scss';
+@import 'Home.scss';

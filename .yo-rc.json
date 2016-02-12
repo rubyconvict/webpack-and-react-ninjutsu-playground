@@ -1,0 +1,6 @@
+{
+  "generator-react-webpack": {
+    "appName": "webpack-and-react-ninjutsu-playground",
+    "style": "scss"
+  }
+}
